@@ -6,6 +6,7 @@ public class Draw : MonoBehaviour
 {
     public GameObject Card1 ;
     public GameObject Card2 ;
+    public GameObject Card3 ;
     /*   public GameObject Card3 ;
     public GameObject Card4 ;
     public GameObject Card5 ;
@@ -22,6 +23,7 @@ public class Draw : MonoBehaviour
     {
         cards.Add(Card1) ;
         cards.Add(Card2) ;
+        cards.Add(Card3) ;
         /* cards.Add(Card3) ;
         cards.Add(Card4) ;
         cards.Add(Card5) ;

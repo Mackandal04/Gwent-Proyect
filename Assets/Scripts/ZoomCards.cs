@@ -18,22 +18,38 @@ public class ZoomCards : MonoBehaviour
 
     public void OnHoverEnter()
     {
-        zoomCard = Instantiate(gameObject, new Vector3(Input.mousePosition.x, Input.mousePosition.y + 270),Quaternion.identity);
+        zoomCard = Instantiate(gameObject, new Vector3(125, 470),Quaternion.identity);
         zoomCard.transform.SetParent(Canvas.transform, false);
-        zoomCard.transform.localScale = zoomScale;
+        zoomCard.layer = LayerMask.NameToLayer("Zoom");
+        RectTransform rect = zoomCard.GetComponent<RectTransform>();
+        rect.localScale =zoomScale;
+        //Image[] images = zoomCard.GetComponentsInChildren<Image>();
+        foreach (Transform child in zoomCard.transform)
+        {
+            RectTransform childRect = child.GetComponent<RectTransform>();
+            if( childRect != null)
+            {
+                rect.sizeDelta = new Vector2(zoomScale.x ,zoomScale.y) ;
+                //childRect.localScale = new Vector2(zoomScale.x ,zoomScale.y) ;
+            }
+            //Vector2 newSize = new Vector2(rect.rect.width * zoomScale.x, rect.rect.height * zoomScale.y);
+            //image.rectTransform.localScale = zoomScale;
+        }
+
+        //zoomCard.transform.localScale = zoomScale;
         //zoomCard.layer = LayerMask.NameToLayer("Zoom") ;
 
         //RectTransform rect = zoomCard.GetComponent<RectTransform>() ;
-        //rect.sizeDelta = new Vector2(220,320) ;
+        rect.sizeDelta = new Vector2(zoomScale.x ,zoomScale.y) ;
 
-        //RectTransform zoomRect = ZoomImage.GetComponent<RectTransform>();
-        //zoomRect.sizeDelta = new Vector2(220,320); 
+       // RectTransform rect = ZoomImage.GetComponent<RectTransform>();
+        //rect.sizeDelta = new Vector2(220,320); 
 
         
     }
 
     public void OnHoverExit()
     {
-        Destroy(zoomCard) ;
+    Destroy(zoomCard) ;
     }
 }

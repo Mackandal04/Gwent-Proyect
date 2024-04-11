@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7669450801461254481}
   - component: {fileID: 2551014990896757491}
   - component: {fileID: 4185918680962921737}
-  - component: {fileID: 3269446301510767042}
   m_Layer: 0
   m_Name: BtoB Zone
   m_TagString: Untagged
@@ -98,7 +97,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 2
   m_StartAxis: 1
-  m_CellSize: {x: 72, y: 119}
+  m_CellSize: {x: 57.53, y: 93.3647}
   m_Spacing: {x: 20, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
@@ -134,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.50738525, y: 0.43395996}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -145,18 +144,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 450, y: 25}
+  m_Size: {x: 475.52563, y: 27.953552}
   m_EdgeRadius: 0
---- !u!114 &3269446301510767042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594057917646280733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2797f64b2214fbe4aaf2828b7a681b68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zoneConditions: BtoB Zone

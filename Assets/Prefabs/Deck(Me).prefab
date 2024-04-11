@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0400b2097828e2447af36994aa1b4946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Card1: {fileID: 3891815265702439336, guid: 8cdf22b114d2caa48b91cf8e37b168a1, type: 3}
-  Card2: {fileID: 4414090581390802748, guid: 376bfefdcadfcbd4fa03990e38bfde8b, type: 3}
+  Card1: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card2: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
   PlayerArea: {fileID: 0}
 --- !u!1 &5767512059910616139
 GameObject:
