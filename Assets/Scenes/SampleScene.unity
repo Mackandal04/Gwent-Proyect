@@ -327,7 +327,10 @@ PrefabInstance:
     - {fileID: 3269446301510767042, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 524372313}
   m_SourcePrefab: {fileID: 100100000, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
 --- !u!224 &236908256 stripped
 RectTransform:
@@ -576,6 +579,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524372308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+  m_PrefabInstance: {fileID: 236908255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &524372313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524372308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd15bf4223f870d47b95e09aede68996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoneName: DistanceZone
 --- !u!1 &680709946 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1063856590300031441, guid: bdcff5606d564c74f8d273ed1ea80299, type: 3}
@@ -763,6 +784,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1159367621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+  m_PrefabInstance: {fileID: 2500087973381349555}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1165995289
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +864,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165995289}
   m_CullTransparentMesh: 1
+--- !u!1 &1228281692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+  m_PrefabInstance: {fileID: 1318921407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1318921407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,13 +989,29 @@ PrefabInstance:
     - {fileID: 3269446301510767042, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1318921413}
   m_SourcePrefab: {fileID: 100100000, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
 --- !u!224 &1318921408 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7464397846502826162, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
   m_PrefabInstance: {fileID: 1318921407}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318921413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228281692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd15bf4223f870d47b95e09aede68996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoneName: AsedioZone
 --- !u!224 &1516268322 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7259287336146195694, guid: dd20163a0c15a7b4d9a6a2b81bf6393b, type: 3}
@@ -1186,7 +1233,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6226020727743666907}
   m_SourcePrefab: {fileID: 100100000, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
 --- !u!1001 &3698299664329674330
 PrefabInstance:
@@ -1203,7 +1253,11 @@ PrefabInstance:
     - target: {fileID: 1170621759745511838, guid: a53f1247db93c98428e5835c7afc74a1, type: 3}
       propertyPath: Card2
       value: 
-      objectReference: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+      objectReference: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
+    - target: {fileID: 1170621759745511838, guid: a53f1247db93c98428e5835c7afc74a1, type: 3}
+      propertyPath: Card3
+      value: 
+      objectReference: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
     - target: {fileID: 1170621759745511838, guid: a53f1247db93c98428e5835c7afc74a1, type: 3}
       propertyPath: PlayerArea
       value: 
@@ -1292,6 +1346,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7261954016105682413, guid: a53f1247db93c98428e5835c7afc74a1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261954016105682413, guid: a53f1247db93c98428e5835c7afc74a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd292a904b3608f42820d5481572e358, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1302,6 +1364,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7464397846502826162, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
   m_PrefabInstance: {fileID: 2500087973381349555}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6226020727743666907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159367621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd15bf4223f870d47b95e09aede68996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoneName: BtoB Zone
 --- !u!1001 &8723680338204113923
 PrefabInstance:
   m_ObjectHideFlags: 0

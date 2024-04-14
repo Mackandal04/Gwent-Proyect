@@ -58,7 +58,7 @@ public class Drag : MonoBehaviour
     {
 
         isDragging = false ;
-        if( isOverDropZone /*&& CanPlay() */&&  dick == false )
+        if( isOverDropZone && CanPlay() &&  dick == false )
         {
             dick = true ;
             transform.position = dropZone.transform.position + new Vector3(0, 0, 0); 
@@ -71,11 +71,11 @@ public class Drag : MonoBehaviour
             transform.SetParent(startParent.transform,false) ;
         }
     }
-    /*public bool CanPlay ()
+    public bool CanPlay ()
     {
-        ZoneCondition conditional = dropZone.GetComponent<ZoneCondition>() ;
-        string first = conditional.zoneConditions;
-        string second = GetComponent<CardDisplay>().location;
+        ZoneName conditional = dropZone.GetComponent<ZoneName>() ;
+        string first = conditional.zoneName;
+        string second = gameObject.GetComponent<CardDisplay>().position;
         if(first == second)
         {
             return true ;
@@ -84,5 +84,5 @@ public class Drag : MonoBehaviour
         {
             return false ;
         }
-    } */
+    } 
 }

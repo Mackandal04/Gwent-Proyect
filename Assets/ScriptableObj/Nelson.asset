@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
+  m_Name: Nelson
+  m_EditorClassIdentifier: 
+  name: Nelson Mount
+  id: 2
+  position: BtoB Zone
+  description: The bully
+  effect: 
+  points: 10
+  zone: 
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  caracterImage: {fileID: 21300000, guid: 70ad867f33fc28f46b69c2fd51d025fb, type: 3}
