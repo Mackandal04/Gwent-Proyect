@@ -17,7 +17,8 @@ using UnityEngine;
         public string zone;
        // public Sprite artwork ;
        // public Sprite type ;
-        public Sprite photo, caracterImage ;
+        public Sprite photo ;
+        public Sprite foto ;
         //public string location ;
 
     }

@@ -79,14 +79,14 @@ PrefabInstance:
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: card
       value: 
-      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
+      objectReference: {fileID: 11400000, guid: fbe5761d74bc543488449955eb15e82e, type: 2}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: location
       value: BtoB Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: position
-      value: BtoB Zone
+      value: Asedio Rival Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2624280706672326619, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -136,10 +136,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 40.4904
       objectReference: {fileID: 0}
-    - target: {fileID: 4387968155902266552, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      propertyPath: SOinfo
-      value: 
-      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
     - target: {fileID: 4917789726631576272, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_SizeDelta.x
       value: 46.2891
@@ -246,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Name
-      value: Nelson Variant
+      value: Bilie el Heroe
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
-  m_Name: Sennor Burns
+  m_Name: Billi el Heroe
   m_EditorClassIdentifier: 
-  name: Sennor Burns
-  id: 3
+  name: Billie The Heroe
+  id: 5
   position: AsedioZone
-  description: Greedy
+  description: Legendary Heroe
   effect: 
-  points: 6
+  points: 8
   zone: 
-  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
-  foto: {fileID: 21300000, guid: 1f17cf638a6a2274ea3513549ebbb50e, type: 3}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 727a4a355bc4d7848a9edd2c029f3914, type: 3}

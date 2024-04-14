@@ -13,6 +13,7 @@ public class CardDisplay : MonoBehaviour
   //  public Image artworkImage ;
   //  public Image typeImage ;
     public Image photoImage ;
+    public Image cImage;
     public string position ;
 
 
@@ -22,6 +23,7 @@ public class CardDisplay : MonoBehaviour
        // artworkImage.sprite = card.artwork ;
         photoImage.sprite = card.photo ;
        // typeImage.sprite = card.type;
+        cImage.sprite = card.foto;
         nameText.text = card.name;
         descriptionText.text  = card.description ;
         pointsText.text = card.points.ToString() ; 
