@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
+  m_Name: Dulce Reencuentro
+  m_EditorClassIdentifier: 
+  name: 
+  id: 0
+  position: 
+  description: 
+  effect: 
+  points: 0
+  zone: 
+  photo: {fileID: 0}
+  foto: {fileID: 0}
+  wbtc: 0

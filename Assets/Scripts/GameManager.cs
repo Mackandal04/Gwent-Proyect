@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
                 Destroy(card);
             }
 
-            Draw draw = GameObject.Find("GameManager").GetComponent<Draw>();
+            DrawDeckTwo draw = GameObject.Find("GameManager").GetComponent<DrawDeckTwo>();
 
             draw.TakeTwoCards();
 
@@ -72,6 +72,43 @@ public class GameManager : MonoBehaviour
 
             gameManager.readyPlayerOne.SetActive(true);
             
+        }
+    }
+
+
+    public static void Turns(GameObject actualCard, bool wbtc)
+    {
+        Players players = GameObject.FindObjectOfType<Players>();
+
+        List<GameObject> PlayerOneCard = players.PlayerOne.Cards;
+
+        List<GameObject> PlayerTwoCard = players.PlayerTwo.Cards;
+
+        if(wbtc == true)
+        {
+            PlayerOneCard.Remove(actualCard);
+        
+        foreach(GameObject card in PlayerOneCard)
+        {
+            card.SetActive(false);
+        }
+
+        GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+        gameManager.readyPlayerTwo.SetActive(true);
+        }
+
+        else
+        {
+            PlayerTwoCard.Remove(actualCard);
+        
+        foreach(GameObject card in PlayerTwoCard)
+        {
+            Debug.Log(PlayerTwoCard.Count);
+            card.SetActive(false);
+        }
+
+        GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+        gameManager.readyPlayerOne.SetActive(true); 
         }
     }
 }

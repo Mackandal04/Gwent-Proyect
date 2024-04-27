@@ -64,6 +64,8 @@ public class Drag : MonoBehaviour
             transform.position = dropZone.transform.position + new Vector3(0, 0, 0); 
         transform.SetParent(dropZone.transform, false);
             transform.SetParent(dropZone.transform, false) ;
+
+            GameManager.Turns(gameObject,gameObject.GetComponent<CardDisplay>().card.wbtc);
         }
         else
         {

@@ -18,6 +18,7 @@ public class CardDisplay : MonoBehaviour
   //  public Image typeImage ;
     public Image photoImage ;
     public Image cImage;
+    public int points;
     public string position ;
 
     private static GameObject lastCardsSelection = null ;

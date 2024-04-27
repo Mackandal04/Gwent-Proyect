@@ -48,14 +48,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 40.11
       objectReference: {fileID: 0}
-    - target: {fileID: 113153068118890987, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 113153068118890987, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -38.9
-      objectReference: {fileID: 0}
     - target: {fileID: 363247130675279201, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -87,18 +79,14 @@ PrefabInstance:
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: card
       value: 
-      objectReference: {fileID: 11400000, guid: 213d40152dd591746a46e462b5aa20bb, type: 2}
-    - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      propertyPath: points
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: location
       value: BtoB Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: position
-      value: DistanceZone
+      value: BtoB Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2624280706672326619, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -148,6 +136,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 40.4904
       objectReference: {fileID: 0}
+    - target: {fileID: 4387968155902266552, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: SOinfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
     - target: {fileID: 4917789726631576272, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_SizeDelta.x
       value: 46.2891
@@ -244,10 +236,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6222035686582005980, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      propertyPath: m_text
-      value: DistanceZone
-      objectReference: {fileID: 0}
     - target: {fileID: 6560396865102977475, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_fontSize
       value: 4
@@ -258,7 +246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Name
-      value: Maggie Variant
+      value: Nelson Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -312,9 +300,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4953849576974137489}
-    - targetCorrespondingSourceObject: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8931737401602476114}
   m_SourcePrefab: {fileID: 100100000, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
 --- !u!1 &1520566826358648976 stripped
 GameObject:
@@ -333,22 +318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ffa4f5c72c57f44abf6973db5ab94ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8931737401602476114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520566826358648976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1da146a6b98eb1446910b4d3b418477d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zone: DistanceZone
-  SOinfo: {fileID: 11400000, guid: 213d40152dd591746a46e462b5aa20bb, type: 2}
-  points: 4
-  pointsText: {fileID: 7073217150222097678}
 --- !u!114 &3399237256302293515 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7052495789868288836, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
@@ -358,16 +327,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 196fb02d67964324380c49d942671066, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7073217150222097678 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3232148903194403905, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-  m_PrefabInstance: {fileID: 5689167592021981519}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
