@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class Draw : MonoBehaviour
+public class DrawDeckTwo : MonoBehaviour
 {
 
     private bool takeIt = true ;
@@ -42,7 +42,7 @@ public class Draw : MonoBehaviour
 
     public void OnClick()
     {
-        List<GameObject> playerONeCard = players.PlayerOne.Cards;
+        List<GameObject> playerTwoCard = players.PlayerTwo.Cards;
         if (takeIt == true)
         {
             Debug.Log(cards.Count);
@@ -54,7 +54,7 @@ public class Draw : MonoBehaviour
 
         playerCard.transform.SetParent(PlayerArea.transform, false);
 
-        players.PlayerOne.AddCard(playerCard);
+        players.PlayerTwo.AddCard(playerCard);
 
         cards.RemoveAt(dontRepeat);
 
@@ -63,9 +63,10 @@ public class Draw : MonoBehaviour
         takeIt = false;
         }
 
+
         else
         {
-            foreach(GameObject card in playerONeCard)
+            foreach(GameObject card in playerTwoCard)
             {
                 card.SetActive(true);
             }
@@ -77,11 +78,11 @@ public class Draw : MonoBehaviour
     {
         int takingCards;
 
-        if(players.PlayerOne.Cards.Count ==10)
+        if(players.PlayerTwo.Cards.Count ==10)
         {
             takingCards = 0 ;
         }
-        else if(players.PlayerOne.Cards.Count == 9)
+        else if(players.PlayerTwo.Cards.Count == 9)
         {
             takingCards = 1 ;
         }
@@ -100,7 +101,7 @@ public class Draw : MonoBehaviour
 
             playerCard.GetComponent<CardDisplay>().clickActive = false;
 
-            players.PlayerOne.AddCard(playerCard);
+            players.PlayerTwo.AddCard(playerCard);
 
             cards.RemoveAt(dontRepeat);
         }

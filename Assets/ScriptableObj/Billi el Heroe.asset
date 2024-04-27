@@ -21,3 +21,4 @@ MonoBehaviour:
   zone: 
   photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
   foto: {fileID: 21300000, guid: 727a4a355bc4d7848a9edd2c029f3914, type: 3}
+  wbtc: 0

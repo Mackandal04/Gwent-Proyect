@@ -21,4 +21,6 @@ using UnityEngine;
         public Sprite foto ;
         //public string location ;
 
+        public bool wbtc; //Who belong this card
+
     }

@@ -341,8 +341,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202193948}
-        m_TargetAssemblyTypeName: Draw, Assembly-CSharp
+      - m_Target: {fileID: 1202193951}
+        m_TargetAssemblyTypeName: DrawDeckTwo, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -1517,6 +1517,8 @@ GameObject:
   - component: {fileID: 1202193947}
   - component: {fileID: 1202193948}
   - component: {fileID: 1202193949}
+  - component: {fileID: 1202193950}
+  - component: {fileID: 1202193951}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1559,6 +1561,15 @@ MonoBehaviour:
   Card1: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
   Card2: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
   Card3: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
+  Card4: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card5: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
+  Card6: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
+  Card7: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card8: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
+  Card9: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
+  Card10: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card11: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
+  Card12: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
   PlayerArea: {fileID: 680709946}
 --- !u!114 &1202193949
 MonoBehaviour:
@@ -1572,6 +1583,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a60380530190b4db8d248b0ba04e1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1202193950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202193946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aac054119ba3504697f4d6fefccb604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  readyPlayerOne: {fileID: 2146255411}
+  readyPlayerTwo: {fileID: 320259827}
+--- !u!114 &1202193951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202193946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c76301eeaa66064db06504cfc006836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: {fileID: 1202193949}
+  Card1: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
+  Card2: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card3: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card4: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
+  Card5: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card6: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card7: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
+  Card8: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card9: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card10: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
+  Card11: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card12: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  PlayerArea: {fileID: 680709946}
 --- !u!1 &1228281692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 594057917646280733, guid: 1e338bc5192374b478c410a5506c0584, type: 3}
@@ -1737,8 +1788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df9dd05bfccc74459016a15fbb40353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnText: {fileID: 0}
-  actualTurn: 0
 --- !u!1001 &1330345234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1885,8 +1934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df9dd05bfccc74459016a15fbb40353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnText: {fileID: 0}
-  actualTurn: 0
 --- !u!1 &1342761491
 GameObject:
   m_ObjectHideFlags: 0
