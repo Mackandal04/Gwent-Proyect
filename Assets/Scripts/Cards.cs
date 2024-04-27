@@ -6,10 +6,8 @@ using TMPro;
 public class Cards : MonoBehaviour
 {
     public string zone;
-    //public CardType cardType;
     public Card SOinfo;
     public int points ;
-    //public string zone ;
     public TMP_Text pointsText;
     void Start()
     {
@@ -18,13 +16,20 @@ public class Cards : MonoBehaviour
     public void SetupCard()
     {
         points = SOinfo.points;
-       // zone = SOinfo.zone;
-
-
+        
         pointsText.text = points.ToString();
+
+       // Game.Instance.MorePoints(points);
     }
     void Update()
     {
         
+    }
+
+
+
+    public void RemoveCard()
+    {
+//        Game.Instance.LessPoints(points);
     }
 }

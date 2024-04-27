@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Draw : MonoBehaviour
 {
+
+    private bool takeIt = true ;
+    public Players players;
     public GameObject Card1 ;
     public GameObject Card2 ;
     public GameObject Card3 ;
@@ -38,13 +41,23 @@ public class Draw : MonoBehaviour
 
     public void OnClick()
     {
+        List<GameObject> playerONeCard = players.PlayerOne.Cards;
+        if (takeIt == true)
+        {
+            Debug.Log(cards.Count);
         for( var i = 0 ; i < 10; i++)
         {
         GameObject playerCard = Instantiate(cards[Random.Range(0,cards.Count)],new Vector3(0,0,0),Quaternion.identity);
 
         playerCard.transform.SetParent(PlayerArea.transform, false);
 
+        players.PlayerOne.AddCard(playerCard);
+
         }
+    
+        takeIt = false;
+        }
+
     }
     
 
