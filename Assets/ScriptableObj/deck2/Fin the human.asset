@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fin the human
   m_EditorClassIdentifier: 
   name: Fin The Human
-  id: 4
+  id: 1
   position: BtoB Zone
   description: The last human on Earth
   effect: 

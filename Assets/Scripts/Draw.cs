@@ -20,6 +20,18 @@ public class Draw : MonoBehaviour
     public GameObject Card10 ;
     public GameObject Card11 ; 
     public GameObject Card12 ;
+    public GameObject Card13 ;
+    public GameObject Card14 ;
+    public GameObject Card15 ;
+    public GameObject Card16 ;
+    public GameObject Card17 ;
+    public GameObject Card18 ;
+    public GameObject Card19 ;
+    public GameObject Card20 ;
+    public GameObject Card21 ;
+    public GameObject Card22 ;
+    public GameObject Card23 ;
+    public GameObject Card24 ;
     public GameObject PlayerArea ;
 
     List<GameObject> cards = new List<GameObject>() ;
@@ -37,6 +49,21 @@ public class Draw : MonoBehaviour
         cards.Add(Card10) ;
         cards.Add(Card11) ; 
         cards.Add(Card3);
+        cards.Add(Card12) ; 
+        cards.Add(Card13) ; 
+        cards.Add(Card14) ; 
+        cards.Add(Card15) ; 
+        cards.Add(Card16) ; 
+        cards.Add(Card17) ; 
+        cards.Add(Card18) ; 
+        cards.Add(Card19) ; 
+        cards.Add(Card20) ;
+        cards.Add(Card21) ; 
+        cards.Add(Card22) ; 
+        cards.Add(Card23) ; 
+        cards.Add(Card24) ; 
+
+
 
     }
 

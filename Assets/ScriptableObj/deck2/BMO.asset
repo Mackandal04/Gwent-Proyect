@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: BMO
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
+  name: BMO
+  id: 8
+  position: BtoB Rival Zone
+  description: aparato que habla
   effect: 
-  points: 0
+  points: 2
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Actor secundario Bob
   m_EditorClassIdentifier: 
-  name: 
+  name: Actor secundario Bob
   id: 0
   position: 
   description: 
@@ -21,4 +21,4 @@ MonoBehaviour:
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
-  wbtc: 0
+  wbtc: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Marceline Reina de los Vampiros
   m_EditorClassIdentifier: 
   name: Sennor Burns
-  id: 3
+  id: 7
   position: AsedioZone
   description: Greedy
   effect: 

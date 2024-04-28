@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Princesa Chicle
   m_EditorClassIdentifier: 
-  name: 
+  name: Princesa Chicle
   id: 0
   position: 
   description: 
