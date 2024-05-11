@@ -19,7 +19,7 @@ MonoBehaviour:
   effect: ...
   points: 7
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: d0dc4b3208c2bde4fa04c6ebb208c088, type: 3}
   range: gold
   wbtc: 1

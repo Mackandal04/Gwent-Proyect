@@ -19,7 +19,7 @@ MonoBehaviour:
   effect: Permite que una unidad aliada escape de un peligro inminente.
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: 018d7588d259ff349a059d5897ab6616, type: 3}
   range: 
   wbtc: 1

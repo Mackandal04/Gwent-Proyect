@@ -20,7 +20,7 @@ MonoBehaviour:
     aliadas en 2 puntos.
   points: 8
   zone: Bto B Zone
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: 1b69272d3440ca84190ab9cfd6bc5b0d, type: 3}
   range: Gold
   wbtc: 1

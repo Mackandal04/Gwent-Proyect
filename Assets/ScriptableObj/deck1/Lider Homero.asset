@@ -21,7 +21,7 @@ MonoBehaviour:
     siempre preparado."
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: 9bdba95ed5b960b4a9622560cb33ab13, type: 3}
   range: Lider
   wbtc: 1

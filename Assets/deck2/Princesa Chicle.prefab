@@ -32,6 +32,14 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnHoverExit
       objectReference: {fileID: 0}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: SOinfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 355840a3bc2246f4eb530ceea68b43fe, type: 2}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: pointsText
+      value: 
+      objectReference: {fileID: 7073217150222097678}
     - target: {fileID: -424500967792783739, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Size.x
       value: 57.53
@@ -87,14 +95,14 @@ PrefabInstance:
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: card
       value: 
-      objectReference: {fileID: 11400000, guid: 67ae029a7485f854398c184084bef059, type: 2}
+      objectReference: {fileID: 11400000, guid: 355840a3bc2246f4eb530ceea68b43fe, type: 2}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: location
       value: BtoB Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: position
-      value: BtoB Rival Zone
+      value: 'Distance Rival Zone '
       objectReference: {fileID: 0}
     - target: {fileID: 2624280706672326619, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -254,7 +262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Name
-      value: Fin el Humano
+      value: Princesa Chicle
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -308,9 +316,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4953849576974137489}
-    - targetCorrespondingSourceObject: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8931737401602476114}
   m_SourcePrefab: {fileID: 100100000, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
 --- !u!1 &1520566826358648976 stripped
 GameObject:
@@ -329,22 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ffa4f5c72c57f44abf6973db5ab94ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8931737401602476114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520566826358648976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1da146a6b98eb1446910b4d3b418477d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zone: DistanceZone
-  SOinfo: {fileID: 11400000, guid: 213d40152dd591746a46e462b5aa20bb, type: 2}
-  points: 4
-  pointsText: {fileID: 7073217150222097678}
 --- !u!114 &3399237256302293515 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7052495789868288836, guid: 017f48abaf799dc4194948d1b8243851, type: 3}

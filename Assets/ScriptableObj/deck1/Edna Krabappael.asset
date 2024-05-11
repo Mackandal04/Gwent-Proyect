@@ -19,7 +19,7 @@ MonoBehaviour:
   effect: ...
   points: 4
   zone: DistanceZone
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: 31de58cbe5e186c41bfd619ef5681cd1, type: 3}
   range: none
   wbtc: 1

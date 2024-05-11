@@ -69,6 +69,7 @@ public class Draw : MonoBehaviour
 
     public void OnClick()
     {
+//        Debug.Log("Se llamo al draw");
         List<GameObject> playerONeCard = players.PlayerOne.Cards;
         if (takeIt == true)
         {

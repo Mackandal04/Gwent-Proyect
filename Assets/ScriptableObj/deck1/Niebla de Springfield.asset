@@ -22,7 +22,7 @@ MonoBehaviour:
     creando un ambiente misterioso y desafiante en esa parte de la batalla.'
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: 5336112ff805451499fd6a672a54d4a7, type: 3}
   range: 
   wbtc: 1

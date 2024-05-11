@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,7 +31,6 @@ public class GameManager : MonoBehaviour
     public GameObject PlayerTwoYouWin ;
     public GameObject Replay ;
 
-
     void Start()
         {
             PlayerOneRows.Add(BtoBZone);
@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
 
     public static void ChangeRound()
     {
+        Debug.Log("Entro a change");
         Players players = GameObject.FindObjectOfType<Players>();
 
         List<GameObject> PlayerOneCard = players.PlayerOne.Cards;
@@ -51,7 +52,6 @@ public class GameManager : MonoBehaviour
         if(IsYourTurn == true)
         {
             PlayerOneEndTurn = true;
-//            Debug.Log(PlayerOneEndTurn);
         
             foreach(GameObject card in PlayerOneCard)
             {
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
         }
         else if(IsYourTurn == false)
             {
+                Debug.Log("Turnodel1");
                 PlayerTwoEndTurn = true;
 //                Debug.Log(PlayerTwoEndTurn);
                 foreach(GameObject card in PlayerTwoCard)
@@ -86,7 +87,10 @@ public class GameManager : MonoBehaviour
                 GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
                 gameManager.LookingforWinner();
                 if(Rounds == 0)
-                gameManager.EndGame();
+                {
+                    Debug.Log("Llevan tres rondas ");
+                    gameManager.EndGame();
+                }
 
                 else
                 {
@@ -152,7 +156,6 @@ public class GameManager : MonoBehaviour
     }
     public  void LookingforWinner()
         {
-                   // Debug.Log($"P1Win {PlayerOneTotalPoints}");
             
             if(PlayerOneTotalPoints<=PlayerTwoTotalPoints)
                 {
@@ -188,72 +191,31 @@ public class GameManager : MonoBehaviour
 
         public void EndGame()
         {
+            Debug.Log("Se llamo al EndGAme");
             GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
             if( PlayerOneRoundsVictories > PlayerTwoRoundsVictories)
             {
                // GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
                 gameManager.PlayerOneYouWin.SetActive(true);
 
-                gameManager.Replay.SetActive(true);
             }
 
             else
             {
               //  GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
                 gameManager.PlayerTwoYouWin.SetActive(true);
-
-                gameManager.Replay.SetActive(true);
             } 
 
-           // ResetGame();
+            ResetGame();
 
-            }
+        }
 
-            // void ResetGame()
-            // {
-            //     PlayerOneTotalPoints = 0;
-            //     PlayerTwoTotalPoints = 0;
-            //     Rounds = 3;
-            //     PlayerOneRoundsVictories = 0;
-            //     PlayerTwoRoundsVictories = 0;
-
-            //     readyPlayerOne.SetActive(false);
-            //     readyPlayerTwo.SetActive(false);
-
-            //     List<GameObject> PlayerOneCards = GameObject.FindObjectOfType<Players>().PlayerOne.Cards;
-            //     List<GameObject> PlayerTwoCards = GameObject.FindObjectOfType<Players>().PlayerTwo.Cards;
-
-            //     foreach (GameObject card in PlayerOneCards)
-            //         {
-            //             Destroy(card);
-            //         }
-
-            //         foreach (GameObject card in PlayerTwoCards)
-            //         {   
-            //             Destroy(card);
-            //         }   
-
-            //     Limpiar instancias de cartas en el cementerio
-            //     Asumiendo que tienes una referencia a los objetos de cementerio
-            //     foreach (Transform child in GameManager.instance.Graveyard.transform)
-            //         {
-            //             Destroy(child.gameObject);
-            //         }
-
-            //     foreach (Transform child in GameManager.instance.GraveyardTwo.transform)
-            //         {
-            //             Destroy(child.gameObject);
-            //         }
-
-            //     Eliminar instancias de Star y demás objetos
-            //     Asumiendo que tienes una referencia a estos objetos
-            //     Destroy(GameManager.instance.board);
-            //     Destroy(GameManager.instance.Star);
-
-            //     IsYourTurn = true;
-            //     PlayerOneEndTurn = false;
-            //     PlayerTwoEndTurn = false;
-            // }
+            public static void ResetGame()
+                {
+                    GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+                    gameManager.Replay.SetActive(true);                  
+                    SceneManager.LoadScene("Menu");
+                }
     public static void ChangeCard( List<GameObject> cardsSelection, bool wbtc , GameObject lastCard)
     {
         Players players = GameObject.FindObjectOfType<Players>();

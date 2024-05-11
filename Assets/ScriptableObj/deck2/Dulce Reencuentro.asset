@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Dulce Reencuentro
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
+  name: Dulce Reencuentro
+  id: 5
+  position: Weather
+  description: ' La Princesa Chicle ofrece un dulce reconfortante'
+  effect: "Eliminando cualquier efecto de clima negativo en el campo y restaurando
+    la armon\xEDa durante toda la batalla."
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 11619fc4bc76fd5499380c4c0a290774, type: 3}
+  range: 
   wbtc: 0

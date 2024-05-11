@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Jake el perro
   m_EditorClassIdentifier: 
   name: Jake The Dog
-  id: 6
-  position: DistanceZone
+  id: 9
+  position: AsedioZone
   description: The loyal friend
   effect: 
   points: 9
   zone: 
   photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
   foto: {fileID: 21300000, guid: 78a4028aaae46c445a6b927c00152630, type: 3}
+  range: Gold
   wbtc: 0

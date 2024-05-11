@@ -21,7 +21,7 @@ MonoBehaviour:
     en 2 puntos, dejando a todos luchando por controlar sus antojos mientras combaten.
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: b16150d1e7f229a4f9a08d8a8736dfda, type: 3}
   range: 
   wbtc: 1

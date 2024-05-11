@@ -20,7 +20,7 @@ MonoBehaviour:
     poder de todas las unidades aliadas en 2 puntos."
   points: 10
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
+  foto: {fileID: 21300000, guid: ee50bb640af333344bc6b03ffda13301, type: 3}
   range: gold
   wbtc: 1

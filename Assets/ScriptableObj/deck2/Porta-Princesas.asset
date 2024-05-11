@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Porta-Princesas
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
+  name: Porta-Princesas
+  id: 15
+  position: Weather
+  description: Las princesas se unen para ocultar a una unidad aliada del peligro
   effect: 
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 96e48bdf4cbc0ca4a93825153127259d, type: 3}
+  range: 
   wbtc: 0

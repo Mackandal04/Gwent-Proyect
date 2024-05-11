@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Lluvia de helado
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
+  name: Lluvia de helado
+  id: 11
+  position: Weahter
+  description: "El Rey Helado provoca una lluvia de helado m\xE1gico, congelando
+    las filas enemigas"
+  effect: Reduce  permanentemente el poder de todas las unidades enemigas en 2 puntos.
   points: 0
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 342fa0b5c31ff6d42af10f0fb765b2af, type: 3}
+  range: 
   wbtc: 0

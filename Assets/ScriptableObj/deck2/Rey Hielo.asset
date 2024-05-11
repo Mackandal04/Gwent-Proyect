@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Rey Hielo
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
+  name: Rey Hielo
+  id: 19
+  position: AsedioZone
+  description: Simon Petrikov oviejo verde
+  effect: El Rey Helado invoca una tormenta de lluvia de helado, poniendo una carta
+    de clima "Lluvia de Helado" en el campo.
+  points: 9
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 9098c8994b1ed6d459d5fdf5746331e5, type: 3}
+  range: Silver
   wbtc: 0

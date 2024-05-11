@@ -32,6 +32,14 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnHoverExit
       objectReference: {fileID: 0}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: SOinfo
+      value: 
+      objectReference: {fileID: 11400000, guid: be4c8b8cad80b774390a6b14ca604dc4, type: 2}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: pointsText
+      value: 
+      objectReference: {fileID: 7073217150222097678}
     - target: {fileID: -424500967792783739, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Size.x
       value: 57.53
@@ -327,5 +335,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 196fb02d67964324380c49d942671066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7073217150222097678 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3232148903194403905, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+  m_PrefabInstance: {fileID: 5689167592021981519}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

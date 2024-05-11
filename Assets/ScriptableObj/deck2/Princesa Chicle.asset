@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Princesa Chicle
   m_EditorClassIdentifier: 
   name: Princesa Chicle
-  id: 0
-  position: 
-  description: 
+  id: 16
+  position: DistanceZone
+  description: Queen of the Candy Kingdom
   effect: 
-  points: 0
+  points: 6
   zone: 
-  photo: {fileID: 0}
-  foto: {fileID: 0}
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 34bfb00b19571ff4482b3f3cda0f4305, type: 3}
+  range: Silver
   wbtc: 0

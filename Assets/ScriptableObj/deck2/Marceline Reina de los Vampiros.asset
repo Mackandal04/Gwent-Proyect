@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Marceline Reina de los Vampiros
   m_EditorClassIdentifier: 
-  name: Sennor Burns
-  id: 7
-  position: AsedioZone
-  description: Greedy
-  effect: 
-  points: 6
+  name: 'Marceline la Reina de los Vampiros '
+  id: 12
+  position: DistanceZone
+  description: La reina Vampiro
+  effect: "Marceline canta una canci\xF3n hipnotizante, disminuyendo el poder de
+    todas las unidades enemigas en la fila seleccionada en 2 puntos durante toda
+    la batalla"
+  points: 8
   zone: 
-  photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
-  foto: {fileID: 21300000, guid: 1f17cf638a6a2274ea3513549ebbb50e, type: 3}
-  wbtc: 1
+  photo: {fileID: 21300000, guid: 77f83768f44545940ba4b20ba5cdc31e, type: 3}
+  foto: {fileID: 21300000, guid: 635ab1ec727bc504bae7a0ad78464469, type: 3}
+  range: Gold
+  wbtc: 0
