@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: El chapuzon de Homero
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
+  name: "El Chapuz\xF3n de Homero"
+  id: 5
+  position: Wheather
+  description: "Homero realiza un chapuz\xF3n glorioso, inspirando a sus aliados
+    y aumentando su capacidad de ataque en 3 puntos."
+  effect: "Homero realiza un chapuz\xF3n glorioso, inspirando a sus aliados y aumentando
+    su capacidad de ataque en 3 puntos."
   points: 0
-  zone: 
+  zone: Wheather
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: 
   wbtc: 1

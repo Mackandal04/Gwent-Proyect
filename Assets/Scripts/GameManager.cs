@@ -9,8 +9,9 @@ public class GameManager : MonoBehaviour
     private static bool IsYourTurn = true;
     private static bool PlayerOneEndTurn ;
     private static bool PlayerTwoEndTurn ;
-    public static int PlayerOneTotalPoints ;
-    public static int PlayerTwoTotalPoints ;
+    public int PlayerOneTotalPoints ;
+    public int PlayerTwoTotalPoints ;
+    public static int Rounds = 3 ;
     public static int PlayerOneRoundsVictories;
     public static int PlayerTwoRoundsVictories;
     public GameObject readyPlayerOne;
@@ -25,7 +26,9 @@ public class GameManager : MonoBehaviour
     public GameObject GraveyardTwo;
     private List <GameObject>PlayerOneRows = new List<GameObject>(3);
     private List <GameObject>PlayerTwoRows= new List<GameObject>(3);
-    public GameObject YouWin ;
+    public GameObject PlayerOneYouWin ;
+    public GameObject PlayerTwoYouWin ;
+    public GameObject Replay ;
 
 
     void Start()
@@ -48,7 +51,7 @@ public class GameManager : MonoBehaviour
         if(IsYourTurn == true)
         {
             PlayerOneEndTurn = true;
-            Debug.Log(PlayerOneEndTurn);
+//            Debug.Log(PlayerOneEndTurn);
         
             foreach(GameObject card in PlayerOneCard)
             {
@@ -64,10 +67,10 @@ public class GameManager : MonoBehaviour
         else if(IsYourTurn == false)
             {
                 PlayerTwoEndTurn = true;
-                Debug.Log(PlayerTwoEndTurn);
+//                Debug.Log(PlayerTwoEndTurn);
                 foreach(GameObject card in PlayerTwoCard)
                     {
-                        Debug.Log(PlayerTwoCard.Count);
+//                        Debug.Log(PlayerTwoCard.Count);
                         card.SetActive(false);
                     }
             if(PlayerOneEndTurn == false)
@@ -81,28 +84,36 @@ public class GameManager : MonoBehaviour
         if(PlayerOneEndTurn == true && PlayerTwoEndTurn == true)
             {
                 GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
-                LookingforWinner();
-                gameManager.YouWin.SetActive(true);
-                Draw draw = GameObject.Find("GameManager").GetComponent<Draw>();
-                draw.TakeTwoCards();
-                DrawDeckTwo drawTwo = GameObject.Find("GameManager").GetComponent<DrawDeckTwo>();
-                drawTwo.TakeTwoCards();
-                GameObject temporalCard = PlayerOneCard[1] ;
-                CardDisplay temporalCardDsiplay = temporalCard.GetComponent<CardDisplay>();
-                temporalCardDsiplay.DragActive();
-                PlayerOneEndTurn = false;
-                PlayerTwoEndTurn = false;
-                foreach(GameObject card in PlayerOneCard )
+                gameManager.LookingforWinner();
+                if(Rounds == 0)
+                gameManager.EndGame();
+
+                else
                 {
-                    card.SetActive(false);
+                    
+                // gameManager.Replay.SetActive(true);
+                    Draw draw = GameObject.Find("GameManager").GetComponent<Draw>();
+                    draw.TakeTwoCards();
+                    DrawDeckTwo drawTwo = GameObject.Find("GameManager").GetComponent<DrawDeckTwo>();
+                    drawTwo.TakeTwoCards();
+                    GameObject temporalCard = PlayerOneCard[1] ;
+                    CardDisplay temporalCardDsiplay = temporalCard.GetComponent<CardDisplay>();
+                    temporalCardDsiplay.DragActive();
+                    PlayerOneEndTurn = false;
+                    PlayerTwoEndTurn = false;
+                        foreach(GameObject card in PlayerOneCard )
+                            {
+                                card.SetActive(false);
+                            }
+                        foreach(GameObject card in PlayerTwoCard )
+                            {
+                                card.SetActive(false);
+                            }
+
                 }
-                foreach(GameObject card in PlayerTwoCard )
-                {
-                    card.SetActive(false);
-                }
-            }
 
             
+                }
     }
 
 
@@ -139,10 +150,13 @@ public class GameManager : MonoBehaviour
             }
             }
     }
-    public static void LookingforWinner()
+    public  void LookingforWinner()
         {
-            if(PlayerOneTotalPoints>PlayerTwoTotalPoints)
+                   // Debug.Log($"P1Win {PlayerOneTotalPoints}");
+            
+            if(PlayerOneTotalPoints<=PlayerTwoTotalPoints)
                 {
+                    Rounds -- ;
                     PlayerOneRoundsVictories++;
                     GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
                     gameManager.readyPlayerOne.SetActive(true);
@@ -153,10 +167,11 @@ public class GameManager : MonoBehaviour
                             IsYourTurn = true;
                         }
                         GameObject StarPhoto = Instantiate (gameManager.Star, gameManager.board.transform,false); 
-                        StarPhoto.transform.localPosition = new Vector3(-220, -170,0);
+                        StarPhoto.transform.localPosition = new Vector3(-336, 349,0);
                 }
-            else if(PlayerOneTotalPoints<PlayerTwoTotalPoints || PlayerOneTotalPoints==PlayerTwoTotalPoints)
+            else 
             {
+                Rounds -- ;
                 PlayerTwoRoundsVictories++;
                 GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
                     gameManager.readyPlayerOne.SetActive(false);
@@ -167,9 +182,78 @@ public class GameManager : MonoBehaviour
                             IsYourTurn = false;
                         }
                     GameObject StarPhoto = Instantiate (gameManager.Star, gameManager.board.transform,false); 
-                        StarPhoto.transform.localPosition = new Vector3(-220, -170,0);
+                        StarPhoto.transform.localPosition = new Vector3(-336, -306,0);
             }
         }
+
+        public void EndGame()
+        {
+            GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+            if( PlayerOneRoundsVictories > PlayerTwoRoundsVictories)
+            {
+               // GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+                gameManager.PlayerOneYouWin.SetActive(true);
+
+                gameManager.Replay.SetActive(true);
+            }
+
+            else
+            {
+              //  GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+                gameManager.PlayerTwoYouWin.SetActive(true);
+
+                gameManager.Replay.SetActive(true);
+            } 
+
+           // ResetGame();
+
+            }
+
+            // void ResetGame()
+            // {
+            //     PlayerOneTotalPoints = 0;
+            //     PlayerTwoTotalPoints = 0;
+            //     Rounds = 3;
+            //     PlayerOneRoundsVictories = 0;
+            //     PlayerTwoRoundsVictories = 0;
+
+            //     readyPlayerOne.SetActive(false);
+            //     readyPlayerTwo.SetActive(false);
+
+            //     List<GameObject> PlayerOneCards = GameObject.FindObjectOfType<Players>().PlayerOne.Cards;
+            //     List<GameObject> PlayerTwoCards = GameObject.FindObjectOfType<Players>().PlayerTwo.Cards;
+
+            //     foreach (GameObject card in PlayerOneCards)
+            //         {
+            //             Destroy(card);
+            //         }
+
+            //         foreach (GameObject card in PlayerTwoCards)
+            //         {   
+            //             Destroy(card);
+            //         }   
+
+            //     Limpiar instancias de cartas en el cementerio
+            //     Asumiendo que tienes una referencia a los objetos de cementerio
+            //     foreach (Transform child in GameManager.instance.Graveyard.transform)
+            //         {
+            //             Destroy(child.gameObject);
+            //         }
+
+            //     foreach (Transform child in GameManager.instance.GraveyardTwo.transform)
+            //         {
+            //             Destroy(child.gameObject);
+            //         }
+
+            //     Eliminar instancias de Star y demás objetos
+            //     Asumiendo que tienes una referencia a estos objetos
+            //     Destroy(GameManager.instance.board);
+            //     Destroy(GameManager.instance.Star);
+
+            //     IsYourTurn = true;
+            //     PlayerOneEndTurn = false;
+            //     PlayerTwoEndTurn = false;
+            // }
     public static void ChangeCard( List<GameObject> cardsSelection, bool wbtc , GameObject lastCard)
     {
         Players players = GameObject.FindObjectOfType<Players>();
@@ -282,7 +366,7 @@ public class GameManager : MonoBehaviour
                 }
                 foreach(GameObject card in PlayerTwoCard)
                     {
-                        Debug.Log(PlayerTwoCard.Count);
+//                        Debug.Log(PlayerTwoCard.Count);
                         card.SetActive(false);
                     }
 

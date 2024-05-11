@@ -32,6 +32,14 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnHoverExit
       objectReference: {fileID: 0}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: zone
+      value: Bto B Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: SOinfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d8db82f4d8cdbc458882b82db4e519a, type: 2}
     - target: {fileID: -424500967792783739, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Size.x
       value: 57.53
@@ -79,7 +87,7 @@ PrefabInstance:
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: card
       value: 
-      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
+      objectReference: {fileID: 11400000, guid: 9d8db82f4d8cdbc458882b82db4e519a, type: 2}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: location
       value: BtoB Zone
@@ -246,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Name
-      value: Nelson Variant
+      value: Bart
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer

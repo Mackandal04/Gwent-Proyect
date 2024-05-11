@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Niebla de Springfield
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
+  name: Niebla de Springfield
+  id: 14
+  position: Weather
+  description: "Una densa niebla envuelve la fila seleccionada del campo de batalla,
+    dificultando la visi\xF3n y la precisi\xF3n de todas las unidades en esa fila,
+    tanto tuyas como las del oponente."
+  effect: ' Reduce el poder de todas las unidades en la fila afectada en 1 punto,
+    creando un ambiente misterioso y desafiante en esa parte de la batalla.'
   points: 0
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: 
   wbtc: 1

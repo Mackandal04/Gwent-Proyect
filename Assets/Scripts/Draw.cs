@@ -72,7 +72,7 @@ public class Draw : MonoBehaviour
         List<GameObject> playerONeCard = players.PlayerOne.Cards;
         if (takeIt == true)
         {
-            Debug.Log(cards.Count);
+            //Debug.Log(cards.Count);
         for( var i = 0 ; i < 10; i++)
         {
         int dontRepeat = Random.Range(0,cards.Count);

@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Lisa
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
+  name: Lisa la Saxofonista
+  id: 8
+  position: DistanceZone
+  description: The most intelligent girl in the country
+  effect: ...
+  points: 7
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: gold
   wbtc: 1

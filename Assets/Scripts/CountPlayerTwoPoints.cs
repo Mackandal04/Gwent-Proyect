@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 public class CountPlayerTwoPoints : MonoBehaviour
 {
+    public GameManager gameManager;
     public GameObject[] cardRows; // Las tres filas del juego
     public TMP_Text totalPointsText;
     private int totalPoints = 0;
@@ -23,7 +24,7 @@ public class CountPlayerTwoPoints : MonoBehaviour
             foreach (CardDisplay card in cards)
             {
                 totalPoints += card.card.points; // Asumiendo que 'points' es una propiedad pública en CardDisplay
-                Debug.Log(totalPoints);
+//                Debug.Log(totalPoints);
             }
             UpdateTotalPointsText();
         }
@@ -31,6 +32,7 @@ public class CountPlayerTwoPoints : MonoBehaviour
     void UpdateTotalPointsText()
     {
         totalPointsText.text = totalPoints.ToString();
+        gameManager.PlayerTwoTotalPoints =totalPoints;
     }
 
     void Update()

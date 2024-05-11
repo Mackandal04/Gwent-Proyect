@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: Actor secundario Bob
   m_EditorClassIdentifier: 
   name: Actor secundario Bob
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
-  zone: 
+  id: 1
+  position: Bto B
+  description: The Most intelligent criminal of Springfield
+  effect: "Disfruta sembrando el caos. Al jugar esta carta, puedes activar un efecto
+    especial que coloca una carta de clima en el campo de batalla para complicar
+    la situaci\xF3n de tu oponente."
+  points: 6
+  zone: Bto B Zone
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: none
   wbtc: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Maggie
   m_EditorClassIdentifier: 
   name: Maggie
-  id: 4
+  id: 10
   position: DistanceZone
   description: The baby
   effect: 
@@ -21,4 +21,5 @@ MonoBehaviour:
   zone: DistanceZone
   photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
   foto: {fileID: 21300000, guid: d0aa5ae84ed52e847afae7de71eeccd0, type: 3}
+  range: gold
   wbtc: 1

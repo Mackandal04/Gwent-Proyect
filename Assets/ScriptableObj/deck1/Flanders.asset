@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Flanders
   m_EditorClassIdentifier: 
   name: Ned Flanders
-  id: 2
+  id: 6
   position: BtoB Zone
   description: Cristianito
   effect: 
@@ -21,4 +21,5 @@ MonoBehaviour:
   zone: 
   photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
   foto: {fileID: 21300000, guid: 75c4b09d773bece4d8b2f4302a581992, type: 3}
+  range: 
   wbtc: 1

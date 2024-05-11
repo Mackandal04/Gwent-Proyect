@@ -79,14 +79,14 @@ PrefabInstance:
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: card
       value: 
-      objectReference: {fileID: 11400000, guid: 4ab39f661e113384db96f8b00c62bdd4, type: 2}
+      objectReference: {fileID: 11400000, guid: 6f810a3e8d323f34ea362abf0db4ba9e, type: 2}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: location
       value: BtoB Zone
       objectReference: {fileID: 0}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: position
-      value: BtoB Zone
+      value: Lider
       objectReference: {fileID: 0}
     - target: {fileID: 2624280706672326619, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -246,7 +246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Name
-      value: Nelson Variant
+      value: Lider Homero
       objectReference: {fileID: 0}
     - target: {fileID: 6623062980277553631, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer
@@ -294,6 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
     m_RemovedComponents:
     - {fileID: 4490572403240668722, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+    - {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

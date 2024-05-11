@@ -19,6 +19,7 @@ using UnityEngine;
        // public Sprite type ;
         public Sprite photo ;
         public Sprite foto ;
+        public string range ;
         //public string location ;
 
         public bool wbtc; //Who belong this card

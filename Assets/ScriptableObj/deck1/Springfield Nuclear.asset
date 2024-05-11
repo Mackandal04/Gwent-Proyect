@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Springfield Nuclear
   m_EditorClassIdentifier: 
   name: 
-  id: 0
+  id: 17
   position: 
   description: 
   effect: 
@@ -21,4 +21,5 @@ MonoBehaviour:
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: 
   wbtc: 1

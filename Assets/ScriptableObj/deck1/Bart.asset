@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Bart
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
-  zone: 
+  name: Bart el Bromista
+  id: 3
+  position: Bto B Zone
+  description: The worst guy of school
+  effect: Bart invoca un vendaval de travesuras, potenciando el poder de las unidades
+    aliadas en 2 puntos.
+  points: 8
+  zone: Bto B Zone
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: Gold
   wbtc: 1

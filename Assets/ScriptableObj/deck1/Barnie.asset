@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Barnie
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
-  zone: 
+  name: Barnie The Drunk
+  id: 2
+  position: AsedioZone, BtoB Zone,DistanceZone
+  description: '"Bruhhh"'
+  effect: ...
+  points: 5
+  zone: AsedioZone, BtoB Zone,DistanceZone
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: Silver
   wbtc: 1

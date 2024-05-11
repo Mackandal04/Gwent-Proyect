@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Marge
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
-  points: 0
+  name: 'Marge la Protectora '
+  id: 11
+  position: BtoB Zone
+  description: Mom and support of the family
+  effect: "Marge protege a sus aliados con su sabidur\xEDa materna, aumentando el
+    poder de todas las unidades aliadas en 2 puntos."
+  points: 10
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: gold
   wbtc: 1

@@ -924,6 +924,7 @@ GameObject:
   - component: {fileID: 7052495789868288836}
   - component: {fileID: -1596763547344473876}
   - component: {fileID: 4490572403240668722}
+  - component: {fileID: -2626274882387542274}
   m_Layer: 0
   m_Name: OG
   m_TagString: Untagged
@@ -1015,6 +1016,7 @@ MonoBehaviour:
   pointsText: {fileID: 3232148903194403905}
   photoImage: {fileID: 1616857766120744370}
   cImage: {fileID: 5567136693068603693}
+  points: 0
   position: 
   clickActive: 1
 --- !u!114 &9028543828760981251
@@ -1231,6 +1233,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ffa4f5c72c57f44abf6973db5ab94ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2626274882387542274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6623062980277553631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da146a6b98eb1446910b4d3b418477d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zone: 
+  SOinfo: {fileID: 0}
+  points: 0
+  pointsText: {fileID: 0}
 --- !u!1 &8786366206353792818
 GameObject:
   m_ObjectHideFlags: 0

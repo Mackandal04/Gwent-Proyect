@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98c1f083667af64f838f4a3a168afb9, type: 3}
   m_Name: Lluvia de Donuts
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  position: 
-  description: 
-  effect: 
+  name: Lluvia de Donuts
+  id: 9
+  position: Wheather
+  description: ' Una lluvia de donuts cae sobre el campo de batalla, tentando tanto
+    a tus unidades como a las del oponente. '
+  effect: Reduce el poder de todas las unidades en el campo, incluidas las tuyas,
+    en 2 puntos, dejando a todos luchando por controlar sus antojos mientras combaten.
   points: 0
   zone: 
   photo: {fileID: 0}
   foto: {fileID: 0}
+  range: 
   wbtc: 1
