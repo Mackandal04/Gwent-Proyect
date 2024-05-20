@@ -213,8 +213,45 @@ public class GameManager : MonoBehaviour
             public static void ResetGame()
                 {
                     GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
-                    gameManager.Replay.SetActive(true);                  
+                    gameManager.Replay.SetActive(true); 
+                    
+                    //ResetVariables();
                     SceneManager.LoadScene("Menu");
+
+                    ResetVariables();
+                }
+                public static void ResetVariables()
+                {
+                   // GameManager gameManagerInstance = this;
+
+                    IsYourTurn = true;
+                    PlayerOneEndTurn = false;
+                    PlayerTwoEndTurn = false;
+                    GameManager gameManagerInstance = FindObjectOfType<GameManager>();
+
+                    if(gameManagerInstance != null)
+                    {
+                        gameManagerInstance.PlayerOneTotalPoints = 0;
+                        gameManagerInstance.PlayerTwoTotalPoints = 0;
+                    }
+                    
+                    Rounds = 3;
+                    PlayerOneRoundsVictories = 0;
+                    PlayerTwoRoundsVictories = 0;
+
+                    // Restablecer objetos visuales
+                    //readyPlayerOne.SetActive(false);
+                    //readyPlayerTwo.SetActive(false);
+                    // Asumiendo que quieres restablecer todas las zonas a su estado inicial
+                    // BtoBZone.SetActive(false);
+                    // DistanceZone.SetActive(false);
+                    // AsedioZone.SetActive(false);
+                    // BtoBRivalZone.SetActive(false);
+                    // DistanceRivalZone.SetActive(false);
+                    // AsedioRivalZone.SetActive(false);
+                    // Graveyard.SetActive(false);
+                    // GraveyardTwo.SetActive(false);
+
                 }
     public static void ChangeCard( List<GameObject> cardsSelection, bool wbtc , GameObject lastCard)
     {

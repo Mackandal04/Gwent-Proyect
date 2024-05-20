@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7772132496349285167}
   - component: {fileID: 6192861145653229570}
   - component: {fileID: 1433988424955514815}
-  - component: {fileID: 2874093366400008934}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -122,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2874093366400008934}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Turns, Assembly-CSharp
         m_MethodName: ChangeTurn
         m_Mode: 1
@@ -134,20 +133,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2874093366400008934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764615879650861892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0df9dd05bfccc74459016a15fbb40353, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnText: {fileID: 0}
-  actualTurn: 0
 --- !u!1 &5490938251080336945
 GameObject:
   m_ObjectHideFlags: 0

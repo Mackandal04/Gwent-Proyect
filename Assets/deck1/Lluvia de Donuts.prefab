@@ -33,6 +33,10 @@ PrefabInstance:
       value: OnHoverExit
       objectReference: {fileID: 0}
     - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
+      propertyPath: zone
+      value: Weather1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: SOinfo
       value: 
       objectReference: {fileID: 11400000, guid: cacd22cc0297d0e41b90ad9c60f9329a, type: 2}

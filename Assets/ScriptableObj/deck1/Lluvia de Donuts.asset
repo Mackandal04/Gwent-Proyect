@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Lluvia de Donuts
   id: 9
-  position: Wheather
+  position: Wheather1
   description: ' Una lluvia de donuts cae sobre el campo de batalla, tentando tanto
     a tus unidades como a las del oponente. '
   effect: Reduce el poder de todas las unidades en el campo, incluidas las tuyas,
