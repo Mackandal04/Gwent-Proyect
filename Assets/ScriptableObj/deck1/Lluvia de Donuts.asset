@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Lluvia de Donuts
   id: 9
-  position: Wheather1
+  position: Clima
   description: ' Una lluvia de donuts cae sobre el campo de batalla, tentando tanto
     a tus unidades como a las del oponente. '
   effect: Reduce el poder de todas las unidades en el campo, incluidas las tuyas,
-    en 2 puntos, dejando a todos luchando por controlar sus antojos mientras combaten.
+    a un 1 punto, dejando a todos luchando por controlar sus antojos mientras combaten.
   points: 0
-  zone: 
+  zone: Clima
   photo: {fileID: 21300000, guid: a6e34acef85c45a4eb35faf50eb19dd3, type: 3}
   foto: {fileID: 21300000, guid: b16150d1e7f229a4f9a08d8a8736dfda, type: 3}
   range: 

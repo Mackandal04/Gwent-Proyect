@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: zone
-      value: Weather1
+      value: Clima
       objectReference: {fileID: 0}
     - target: {fileID: -2626274882387542274, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: SOinfo
@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2565096057514429437, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: position
-      value: Weather
+      value: Clima
       objectReference: {fileID: 0}
     - target: {fileID: 2624280706672326619, guid: 017f48abaf799dc4194948d1b8243851, type: 3}
       propertyPath: m_Layer

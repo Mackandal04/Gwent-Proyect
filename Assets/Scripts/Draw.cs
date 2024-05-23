@@ -32,6 +32,8 @@ public class Draw : MonoBehaviour
     public GameObject Card22 ;
     public GameObject Card23 ;
     public GameObject Card24 ;
+    public GameObject Card25 ;
+    public GameObject Card26 ;
     public GameObject PlayerArea ;
 
     List<GameObject> cards = new List<GameObject>() ;
@@ -62,8 +64,8 @@ public class Draw : MonoBehaviour
         cards.Add(Card22) ; 
         cards.Add(Card23) ; 
         cards.Add(Card24) ; 
-
-
+        cards.Add(Card25) ;
+        cards.Add(Card26) ;
 
     }
 
