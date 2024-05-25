@@ -21,9 +21,7 @@ public class PowerUP : MonoBehaviour
     {
         if(Weather.transform.childCount > 0)
             CheckAndApplyInZone();
-
-        else
-            Debug.Log("No tiene hijos");
+//            Debug.Log("No tiene hijos");
     }
 
     private void CheckAndApplyInZone()

@@ -125,11 +125,10 @@ public class GameManager : MonoBehaviour
     {
         for(int i = 0; i <3; i++)
             {
-
-        GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
-        foreach(GameObject row in gameManager.PlayerOneRows)
-            {
-                foreach(Transform card in row.transform)
+                GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+                foreach(GameObject row in gameManager.PlayerOneRows)
+                {
+                    foreach(Transform card in row.transform)
                     {
                         CardDisplay currentCard = card.GetComponent<CardDisplay>();
 
@@ -138,11 +137,11 @@ public class GameManager : MonoBehaviour
                             card.SetParent(gameManager.Graveyard.transform, true);
                         }
                     }
-            }
+                }
 
-            foreach(GameObject row in gameManager.PlayerTwoRows)
-            {
-                foreach(Transform card in row.transform)
+                foreach(GameObject row in gameManager.PlayerTwoRows)
+                {
+                    foreach(Transform card in row.transform)
                     {
                         CardDisplay currentCard = card.GetComponent<CardDisplay>();
 
@@ -151,7 +150,7 @@ public class GameManager : MonoBehaviour
                             card.SetParent(gameManager.GraveyardTwo.transform, true);
                         }
                     }
-            }
+                }
             }
     }
     public  void LookingforWinner()

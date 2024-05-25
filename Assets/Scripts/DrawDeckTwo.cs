@@ -72,7 +72,7 @@ public class DrawDeckTwo : MonoBehaviour
 
     public void OnClick()
     {
-        Debug.Log("Se llamo al draw2");
+//        Debug.Log("Se llamo al draw2");
         List<GameObject> playerTwoCard = players.PlayerTwo.Cards;
         if (takeIt == true)
         {

@@ -8,6 +8,8 @@ public class Cards : MonoBehaviour
     public string zone;
     public Card SOinfo;
     public int points ;
+    public int basePoints ;
+    public bool wbtc;
     public TMP_Text pointsText;
     void Start()
     {
@@ -16,6 +18,8 @@ public class Cards : MonoBehaviour
     public void SetupCard()
     {
         points = SOinfo.points;
+        basePoints = points;
+        wbtc = SOinfo.wbtc;
         
         pointsText.text = points.ToString();
 

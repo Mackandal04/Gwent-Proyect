@@ -23,8 +23,11 @@ public class Count : MonoBehaviour
             CardDisplay[] cards = row.GetComponentsInChildren<CardDisplay>();
             foreach (CardDisplay card in cards)
             {
-                totalPoints += card.card.points; // Asumiendo que 'points' es una propiedad pública en CardDisplay
-                //Debug.Log(totalPoints);
+                if(card.card.points == card.basePoints)
+                    totalPoints += card.basePoints; // Asumiendo que 'points' es una propiedad pública en CardDisplay
+                
+                else
+                    totalPoints += card.card.points;
             }
             UpdateTotalPointsText();
         }

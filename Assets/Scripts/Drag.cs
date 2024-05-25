@@ -22,11 +22,12 @@ public class Drag : MonoBehaviour
     {
         if(!dick)
         {
-        if (isDragging)
-        {
-            transform.position = new Vector2(Input.mousePosition.x,Input.mousePosition.y) ;
-            transform.SetParent( Canvas.transform , true);
-        }
+            if (isDragging)
+            {
+                transform.position = new Vector2(Input.mousePosition.x,Input.mousePosition.y) ;
+                
+                transform.SetParent( Canvas.transform , true);
+            }
 
         }
     }
@@ -34,18 +35,21 @@ public class Drag : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isOverDropZone = true ;
+        
         dropZone = collision.gameObject ;
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         isOverDropZone = false ;
+        
         dropZone = null ;
     }
 
     public void StartDrag()
     {
         startParent = transform.parent.gameObject ;
+
         starPosition = transform.position ;
 
         isDragging = true ;
@@ -61,30 +65,39 @@ public class Drag : MonoBehaviour
         if( isOverDropZone && CanPlay() &&  dick == false )
         {
             dick = true ;
+            
             transform.position = dropZone.transform.position + new Vector3(0, 0, 0); 
-        transform.SetParent(dropZone.transform, false);
+            
+            transform.SetParent(dropZone.transform, false);
+            
             transform.SetParent(dropZone.transform, false) ;
 
             GameManager.Turns(gameObject,gameObject.GetComponent<CardDisplay>().card.wbtc);
+
+            CardEffect cardEffect = GetComponent<CardEffect>();
+
+            if(cardEffect != null)
+                cardEffect.ActivateEffect();
         }
         else
         {
             transform.position = starPosition ;
+            
             transform.SetParent(startParent.transform,false) ;
         }
     }
     public bool CanPlay ()
     {
         ZoneName conditional = dropZone.GetComponent<ZoneName>() ;
+        
         string first = conditional.zoneName;
+        
         string second = gameObject.GetComponent<CardDisplay>().position;
+        
         if(first == second)
-        {
             return true ;
-        }
+        
         else
-        {
             return false ;
-        }
     } 
 }

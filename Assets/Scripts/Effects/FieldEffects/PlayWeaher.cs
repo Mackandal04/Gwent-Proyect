@@ -24,9 +24,6 @@ public class PlayWeaher : MonoBehaviour
     {
         if(Weather.transform.childCount > 0)
             CheckAndApplyWeather();
-
-        else
-            Debug.Log("No tienes climas");
     }
 
     void CheckAndApplyWeather()

@@ -14,11 +14,11 @@ public class CardDisplay : MonoBehaviour
     public TMP_Text nameText ;
     public TMP_Text descriptionText ;
     public TMP_Text pointsText ;
-  //  public Image artworkImage ;
-  //  public Image typeImage ;
+    //public TMP_Text basePointsText ;
     public Image photoImage ;
     public Image cImage;
     public int points;
+    public int basePoints;
     public string position ;
 
     private static GameObject lastCardsSelection = null ;
@@ -81,13 +81,11 @@ public class CardDisplay : MonoBehaviour
 
     void Start()
     {
-        //location = card.location ;
-       // artworkImage.sprite = card.artwork ;
         photoImage.sprite = card.photo ;
-       // typeImage.sprite = card.type;
         cImage.sprite = card.foto;
         nameText.text = card.name;
         descriptionText.text  = card.description ;
         pointsText.text = card.points.ToString() ; 
+        basePoints = points ;
     }
 }
