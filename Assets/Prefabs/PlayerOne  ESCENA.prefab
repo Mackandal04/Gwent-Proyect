@@ -179,7 +179,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 97690656
+  m_TextStyleHashCode: 2194
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -313,12 +313,12 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 97690656
+  m_TextStyleHashCode: 2194
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57
+  m_fontSize: 71.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2403122325730092952, guid: c7a83f27cdae4764a8f3b7746d67f442, type: 3}
         m_TargetAssemblyTypeName: Draw, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1

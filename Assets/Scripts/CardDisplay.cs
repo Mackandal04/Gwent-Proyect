@@ -86,6 +86,5 @@ public class CardDisplay : MonoBehaviour
         nameText.text = card.name;
         descriptionText.text  = card.description ;
         pointsText.text = card.points.ToString() ; 
-        basePoints = points ;
     }
 }

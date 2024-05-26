@@ -18,12 +18,11 @@ public class Cards : MonoBehaviour
     public void SetupCard()
     {
         points = SOinfo.points;
-        basePoints = points;
+        basePoints = SOinfo.points;
         wbtc = SOinfo.wbtc;
         
         pointsText.text = points.ToString();
 
-       // Game.Instance.MorePoints(points);
     }
     void Update()
     {

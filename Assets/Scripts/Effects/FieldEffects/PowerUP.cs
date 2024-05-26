@@ -32,7 +32,7 @@ public class PowerUP : MonoBehaviour
 
             if(cardComponent != null && !cardsWithEffectApplyList.Contains(child))
             {
-                cardComponent.card.points += 3;
+                cardComponent.card.points = cardComponent.card.points * 2;
                 Debug.Log("Se aumento en 3 en la AsedioZone");
                 cardsWithEffectApplyList.Add(child);
             }

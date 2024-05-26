@@ -15,13 +15,8 @@ using UnityEngine;
         public string position , description , effect ;
         public int points ;
         public string zone;
-       // public Sprite artwork ;
-       // public Sprite type ;
         public Sprite photo ;
         public Sprite foto ;
         public string range ;
-        //public string location ;
-
-        public bool wbtc; //Who belong this card
-
+        public bool wbtc; 
     }

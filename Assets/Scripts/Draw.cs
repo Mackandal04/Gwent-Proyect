@@ -6,7 +6,10 @@ using UnityEngine.XR;
 public class Draw : MonoBehaviour
 {
 
+    //bool actualTurnOne = GameManager.IsYourTurnOne;
+   // bool actualTurnTwo = GameManager.IsYourTurnTwo;
     private bool takeIt = true ;
+    private bool takeOne = true ;
     public Players players;
     public GameObject Card1 ;
     public GameObject Card2 ;
@@ -101,6 +104,32 @@ public class Draw : MonoBehaviour
             }
         }
 
+    }
+
+
+
+    public void OnClick2()
+    {
+        List<GameObject> playerONeCard = players.PlayerOne.Cards;
+        if (takeOne == true ) //&& actualTurnOne == true && actualTurnTwo == false)
+        {
+            //Debug.Log(cards.Count);
+            for( var i = 0 ; i < 1; i++)
+            {
+                int dontRepeat = Random.Range(0,cards.Count);
+
+                GameObject playerCard = Instantiate(cards[dontRepeat],new Vector3(0,0,0),Quaternion.identity);
+
+                playerCard.transform.SetParent(PlayerArea.transform, false);
+
+                players.PlayerOne.AddCard(playerCard);
+
+                cards.RemoveAt(dontRepeat);
+
+            }
+    
+            takeOne = false;
+        }
     }
 
     public void TakeTwoCards()

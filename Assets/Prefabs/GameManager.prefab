@@ -52,31 +52,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players: {fileID: 4197135517315853538}
-  Card1: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card2: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
-  Card3: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
-  Card4: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card5: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
-  Card6: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
-  Card7: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card8: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
-  Card9: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
+  Card1: {fileID: 1520566826358648976, guid: 395241655b4fcfe49bbf42705a0341a9, type: 3}
+  Card2: {fileID: 1520566826358648976, guid: 13c0c4d839e718044a1d4da61d6cf1bd, type: 3}
+  Card3: {fileID: 1520566826358648976, guid: 820edd7319038044ab36648108f7a09f, type: 3}
+  Card4: {fileID: 1520566826358648976, guid: bb6fc56638c9b1e4ba6f969dadcd83a3, type: 3}
+  Card5: {fileID: 1520566826358648976, guid: 2f87e4d8e7ed66c46ad9acf728fea251, type: 3}
+  Card6: {fileID: 1520566826358648976, guid: d151703527bc521419b3465817946806, type: 3}
+  Card7: {fileID: 1520566826358648976, guid: 335f58242d71eed4e9b011bd3f08c547, type: 3}
+  Card8: {fileID: 1520566826358648976, guid: 5db03872bc43dac4685cb60f42aff316, type: 3}
+  Card9: {fileID: 1520566826358648976, guid: 6d7bb7a57604321468883c13cae2d316, type: 3}
   Card10: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card11: {fileID: 1520566826358648976, guid: 4dcd0268347222048824ebd911c2657d, type: 3}
-  Card12: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
-  Card13: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card14: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card15: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card16: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card17: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card11: {fileID: 1520566826358648976, guid: f7f8af95734cea24586d0fe94ac34087, type: 3}
+  Card12: {fileID: 1520566826358648976, guid: 395241655b4fcfe49bbf42705a0341a9, type: 3}
+  Card13: {fileID: 1520566826358648976, guid: 13c0c4d839e718044a1d4da61d6cf1bd, type: 3}
+  Card14: {fileID: 1520566826358648976, guid: 820edd7319038044ab36648108f7a09f, type: 3}
+  Card15: {fileID: 1520566826358648976, guid: bb6fc56638c9b1e4ba6f969dadcd83a3, type: 3}
+  Card16: {fileID: 1520566826358648976, guid: 2f87e4d8e7ed66c46ad9acf728fea251, type: 3}
+  Card17: {fileID: 1520566826358648976, guid: d151703527bc521419b3465817946806, type: 3}
   Card18: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card19: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card20: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card21: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card22: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card23: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
-  Card24: {fileID: 1520566826358648976, guid: 84cafa12b31d1eb4dae47bb9403e6639, type: 3}
+  Card19: {fileID: 1520566826358648976, guid: 335f58242d71eed4e9b011bd3f08c547, type: 3}
+  Card20: {fileID: 1520566826358648976, guid: 5db03872bc43dac4685cb60f42aff316, type: 3}
+  Card21: {fileID: 1520566826358648976, guid: 6d7bb7a57604321468883c13cae2d316, type: 3}
+  Card22: {fileID: 1520566826358648976, guid: beae36d3553dc1741a405f500f47f5da, type: 3}
+  Card23: {fileID: 1520566826358648976, guid: beae36d3553dc1741a405f500f47f5da, type: 3}
+  Card24: {fileID: 1520566826358648976, guid: beae36d3553dc1741a405f500f47f5da, type: 3}
+  Card25: {fileID: 1520566826358648976, guid: b39820cbd4671614583f4d667e22e4d3, type: 3}
+  Card26: {fileID: 1520566826358648976, guid: b39820cbd4671614583f4d667e22e4d3, type: 3}
   PlayerArea: {fileID: 0}
+  cards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &4197135517315853538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,6 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Star: {fileID: 6333615646405158424, guid: 21619666dd22d9b4b83792cd07e3f362, type: 3}
   board: {fileID: 0}
+  PlayerOneTotalPoints: 0
+  PlayerTwoTotalPoints: 0
   readyPlayerOne: {fileID: 0}
   readyPlayerTwo: {fileID: 0}
   BtoBZone: {fileID: 0}
@@ -113,7 +124,9 @@ MonoBehaviour:
   AsedioRivalZone: {fileID: 0}
   Graveyard: {fileID: 0}
   GraveyardTwo: {fileID: 0}
-  YouWin: {fileID: 0}
+  PlayerOneYouWin: {fileID: 0}
+  PlayerTwoYouWin: {fileID: 0}
+  Replay: {fileID: 0}
 --- !u!114 &3363482243207506444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,27 +141,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: {fileID: 4197135517315853538}
   Card1: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
-  Card2: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
-  Card3: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card4: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
-  Card5: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
-  Card6: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card7: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
-  Card8: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
-  Card9: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card10: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
-  Card11: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
-  Card12: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card13: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card14: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card15: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card16: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card17: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card2: {fileID: 1520566826358648976, guid: 6b77ce30257721a4084a8d53856c0d63, type: 3}
+  Card3: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card4: {fileID: 1520566826358648976, guid: 83a1609019a97a2438be6a6c2973a25a, type: 3}
+  Card5: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card6: {fileID: 1520566826358648976, guid: 921b8c435861bff4d991a641a0a98620, type: 3}
+  Card7: {fileID: 1520566826358648976, guid: c93b6e3db338ccb4daae044ef5d69476, type: 3}
+  Card8: {fileID: 1520566826358648976, guid: fc94c5ba9ee1b6a44b6bab0ee7517035, type: 3}
+  Card9: {fileID: 1520566826358648976, guid: d99f3f785d8ff444ea8f129d58924f68, type: 3}
+  Card10: {fileID: 1520566826358648976, guid: c03736c611669cb46b4fd9c6d7d03372, type: 3}
+  Card11: {fileID: 1520566826358648976, guid: 6839f43a750fefe4f88b05576a916be0, type: 3}
+  Card12: {fileID: 1520566826358648976, guid: cbdfe8aa48b22d74c887d086e992030f, type: 3}
+  Card13: {fileID: 1520566826358648976, guid: 9665f42f3758218459c8affe6661f68e, type: 3}
+  Card14: {fileID: 1520566826358648976, guid: 9290d5fcc53bae64daeaa8fbd7dba3ba, type: 3}
+  Card15: {fileID: 1520566826358648976, guid: 6b77ce30257721a4084a8d53856c0d63, type: 3}
+  Card16: {fileID: 1520566826358648976, guid: 0b29b3d4f0243d145a7cbed5b260b9d4, type: 3}
+  Card17: {fileID: 1520566826358648976, guid: 83a1609019a97a2438be6a6c2973a25a, type: 3}
   Card18: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card19: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card20: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card21: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card22: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card23: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
-  Card24: {fileID: 1520566826358648976, guid: 7b951c94f497ef64f9ca70236fc44574, type: 3}
+  Card19: {fileID: 1520566826358648976, guid: 921b8c435861bff4d991a641a0a98620, type: 3}
+  Card20: {fileID: 1520566826358648976, guid: c93b6e3db338ccb4daae044ef5d69476, type: 3}
+  Card21: {fileID: 1520566826358648976, guid: fc94c5ba9ee1b6a44b6bab0ee7517035, type: 3}
+  Card22: {fileID: 1520566826358648976, guid: d99f3f785d8ff444ea8f129d58924f68, type: 3}
+  Card23: {fileID: 1520566826358648976, guid: c03736c611669cb46b4fd9c6d7d03372, type: 3}
+  Card24: {fileID: 1520566826358648976, guid: 6839f43a750fefe4f88b05576a916be0, type: 3}
+  Card25: {fileID: 1520566826358648976, guid: cbdfe8aa48b22d74c887d086e992030f, type: 3}
+  Card26: {fileID: 1520566826358648976, guid: 9665f42f3758218459c8affe6661f68e, type: 3}
   PlayerArea: {fileID: 0}
