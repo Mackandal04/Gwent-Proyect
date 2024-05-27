@@ -23,7 +23,7 @@ public class CountPlayerTwoPoints : MonoBehaviour
             CardDisplay[] cards = row.GetComponentsInChildren<CardDisplay>();
             foreach (CardDisplay card in cards)
             {
-                totalPoints += card.card.points; // Asumiendo que 'points' es una propiedad pública en CardDisplay
+                totalPoints += card.points; // Asumiendo que 'points' es una propiedad pública en CardDisplay
 //                Debug.Log(totalPoints);
             }
             UpdateTotalPointsText();

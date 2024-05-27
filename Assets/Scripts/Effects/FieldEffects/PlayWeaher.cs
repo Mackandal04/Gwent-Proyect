@@ -34,7 +34,7 @@ public class PlayWeaher : MonoBehaviour
 
             if(cardComponent != null && !cardsWithweather.Contains(child))
             {
-                cardComponent.card.points = 1;
+                cardComponent.points = 1;
                 Debug.Log("Points == 1");
                 cardsWithweather.Add(child);
             }
@@ -49,7 +49,7 @@ public class PlayWeaher : MonoBehaviour
 
             if(cardComponent != null && !cardsWithweather.Contains(kid))
             {
-                cardComponent.card.points = 1;
+                cardComponent.points = 1;
                 Debug.Log("Points == 1");
                 cardsWithweather.Add(kid);
             }

@@ -85,6 +85,7 @@ public class CardDisplay : MonoBehaviour
         cImage.sprite = card.foto;
         nameText.text = card.name;
         descriptionText.text  = card.description ;
-        pointsText.text = card.points.ToString() ; 
+        points = card.points;
+        pointsText.text = points.ToString() ; 
     }
 }
